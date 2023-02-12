@@ -4,7 +4,7 @@ Efficiently manage your deliveries from start to finish with our streamlined sys
 # Inspiration❤️:
 The inspiration for this code could be a delivery management system for a logistics company, where the system can optimize the delivery route to minimize the time and distance travelled by delivery personnel.
 
-![Working ss](/screenshots.png)
+![Working ss](/screenshot.png)
 
 # What it does?
 This code uses the Nearest Neighbor and 2-Opt algorithms to optimize the delivery route, given a list of locations to be visited, and returns an array of indices that indicate the order in which to visit the locations.
