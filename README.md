@@ -4,10 +4,11 @@ Efficiently manage your deliveries from start to finish with our streamlined sys
 # Inspiration❤️:
 The inspiration for this code could be a delivery management system for a logistics company, where the system can optimize the delivery route to minimize the time and distance travelled by delivery personnel.
 
-![Working ss](/screenshot.png)
-
 # What it does?
 This code uses the Nearest Neighbor and 2-Opt algorithms to optimize the delivery route, given a list of locations to be visited, and returns an array of indices that indicate the order in which to visit the locations.
+
+# Working ScreenShot:
+![Working ss](/screenshot.png)
 
 # How we built it?
 This code is built using JavaScript and the following libraries: **Express.js**, **geolib**. The **computeDistanceMatrix()** function computes the distance matrix between all pairs of locations using the **geolib** library. The **findNearestNeighborRoute()** function uses the Nearest Neighbor algorithm to find a preliminary route, while **optimize2Opt()** function uses the 2-Opt algorithm to improve the preliminary route. The **optimizeDeliveryRoute()** function orchestrates the whole process.
